@@ -133,6 +133,39 @@ main{
     color:red;
 }
 
+.coin-list{
+    position:absolute;
+    display: block;
+    flex-direction: column;
+    align-items:center;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 15px;
+    color: #ff960b;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-color: #ff960b;
+    margin-left: 110px;
+}
+
+.coin img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.coin h3{
+    color: #fdfdfd;
+}
+
 @media only screen and (max-width:840px){
     .main-box .top{
         display: flex;
