@@ -39,6 +39,7 @@
                 } else {
             ?>
             <header>Login</header>
+            <img src="images/CryptoStashLogo.png">
             <form action="" method="post">
                 <div class="field-input">
                     <label for="email">Email</label>
